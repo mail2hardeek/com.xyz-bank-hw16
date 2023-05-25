@@ -1,0 +1,366 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8658598500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Customer should add and withdraw money",
+        "description": "",
+        "id": "add-and-withdraw-money;customer-should-add-and-withdraw-money",
+        "after": [
+          {
+            "result": {
+              "duration": 1834531999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 308999300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on homepage",
+            "match": {
+              "location": "CustomerLoginSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263811001,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on customer login button on homepage",
+            "match": {
+              "location": "AddandWithdrawSteps.userClicksOnCustomerLoginButtonOnHomepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 684845300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User selects customer from list",
+            "match": {
+              "location": "AddandWithdrawSteps.userSelectsCustomerFromList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142204300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on login button on page",
+            "match": {
+              "location": "AddandWithdrawSteps.userClicksOnLoginButtonOnPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 942036801,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Deposit tab",
+            "match": {
+              "location": "AddandWithdrawSteps.userClicksOnDepositTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 445899400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User adds money to account",
+            "match": {
+              "location": "AddandWithdrawSteps.userAddsMoneyToAccount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111789400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on submit button on account page",
+            "match": {
+              "location": "AddandWithdrawSteps.userClicksOnSubmitButtonOnAccountPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73442400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User verifes text Deposit Successful",
+            "match": {
+              "location": "AddandWithdrawSteps.userVerifesTextDepositSuccessful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 117059401,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on Withdrawl button",
+            "match": {
+              "location": "AddandWithdrawSteps.userClicksOnWithdrawlButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116714600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters amount to withdraw",
+            "match": {
+              "location": "AddandWithdrawSteps.userEntersAmountToWithdraw()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113571100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on submit button to withdraw button",
+            "match": {
+              "location": "AddandWithdrawSteps.userClicksOnSubmitButtonToWithdrawButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81497000,
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found\n  (Session info: chrome\u003d113.0.5672.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: \u00274.9.0\u0027, revision: \u0027d7057100a6\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [86214aabbf46ff6aff3f6f23f37449df, getElementText {id\u003dA3475931D913052AF3DBF0F29278A9DA_element_25}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:53963}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53963/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (86214aabbf46ff6aff3f6f23f37449df)] -\u003e xpath: //span[@class\u003d\u0027error ng-binding\u0027]]\nSession ID: 86214aabbf46ff6aff3f6f23f37449df\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat com.sun.proxy.$Proxy23.getText(Unknown Source)\r\n\tat com.xyz.bank.sw16.utility.Utility.getTextFromElement(Utility.java:64)\r\n\tat com.xyz.bank.sw16.pages.AccountPage.getMessage2(AccountPage.java:55)\r\n\tat com.xyz.bank.sw16.steps.AddandWithdrawSteps.userVerifiesTextTransactionSuccessful(AddandWithdrawSteps.java:65)\r\n\tat ✽.Then User verifies text Transaction Successful(AddAndWithdrawMoney.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "User verifies text Transaction Successful",
+            "match": {
+              "location": "AddandWithdrawSteps.userVerifiesTextTransactionSuccessful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User logs out of account by clicking logout button",
+            "match": {
+              "location": "AddandWithdrawSteps.userLogsOutOfAccountByClickingLogoutButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Add and Withdraw Money",
+    "description": "",
+    "id": "add-and-withdraw-money",
+    "keyword": "Feature",
+    "uri": "AddAndWithdrawMoney.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smoke"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6255844200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should open new bank account",
+        "description": "",
+        "id": "open-new-account;user-should-open-new-bank-account",
+        "after": [
+          {
+            "result": {
+              "duration": 1201793300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on homepage",
+            "match": {
+              "location": "CustomerLoginSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 636761199,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Bank Manager Login Tab",
+            "match": {
+              "location": "OpenAccountSteps.userClicksOnBankManagerLoginTab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 375982400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click On Open Account Tab",
+            "match": {
+              "location": "OpenAccountSteps.userClickOnOpenAccountTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20602876800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User searchs customer that added",
+            "match": {
+              "location": "OpenAccountSteps.userSearchsCustomerThatAdded()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196432300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User selects currency Pound",
+            "match": {
+              "location": "OpenAccountSteps.userSelectsCurrencyPound()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130522301,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on process button",
+            "match": {
+              "location": "OpenAccountSteps.userClicksOnProcessButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14129500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User switches to Popup Alert displayed",
+            "match": {
+              "location": "OpenAccountSteps.userSwitchesToPopupAlertDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25854999,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Verifies message Account created successfully on alert",
+            "match": {
+              "location": "OpenAccountSteps.userVerifiesMessageAccountCreatedSuccessfullyOnAlert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19956600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Click on ok button on popup and accepts popup",
+            "match": {
+              "location": "OpenAccountSteps.userClickOnOkButtonOnPopupAndAcceptsPopup()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Open New Account",
+    "description": "",
+    "id": "open-new-account",
+    "keyword": "Feature",
+    "uri": "OpenNewAccount.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@smoke"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]

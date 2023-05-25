@@ -1,0 +1,9 @@
+com\xyz\bank\sw16\steps\OpenAccountSteps.class
+com\xyz\bank\sw16\steps\LoginSteps.class
+com\xyz\bank\sw16\runners\SanityRunner.class
+com\xyz\bank\sw16\steps\CustomerLoginSteps.class
+com\xyz\bank\sw16\Hooks.class
+com\xyz\bank\sw16\runners\TestRunner.class
+com\xyz\bank\sw16\runners\SmokeRunner.class
+com\xyz\bank\sw16\steps\AddandWithdrawSteps.class
+com\xyz\bank\sw16\runners\RegressionRunner.class
